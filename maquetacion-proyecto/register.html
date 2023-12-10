@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/normalize.css">
+    <link rel="stylesheet" href="src/style/css.css">
+    <title>Polyglot Center | Registro</title>
+</head>
+<body class="bg">
+    <main class="contenedor-medio">
+       <div class="contenedor-login">
+            <h1 class="login-titulo">Formulario de registro</h1>
+            <form class="formulario-registro mt-3">
+                
+                <label class="label-registro" for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre"/>
+                <label class="label-registro" for="apellido1">Apellido 1</label>
+                <input type="text" id="apellido1" placeholder="Ingrese su primer apellido"/>
+                <label class="label-registro" for="apellido2">Apellido 2</label>
+                <input type="text" id="apellido2" placeholder="Ingrese su segundo apellido"/>
+                <label class="label-registro" for="correo">Correo</label>
+                <input type="email" id="correo" placeholder="Ingrese su correo"/>
+                <label class="label-registro" for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" placeholder="Ingrese su número de teléfono"/>
+                <label class="label-registro" for="nacimiento">Fecha de nacimiento</label>
+                <input type="date" id="nacimiento" min="2005-12-01"/>
+                <label class="label-registro" for="password">Contraseña</label>
+                <input type="password" id="password" placeholder="Ingrese Contraseña"/>
+                <label class="label-registro" for="confirmation">Confirmar contraseña</label>
+                <input type="password" id="confirmation" placeholder="Confirmar Contraseña"/>
+
+                <button class="enviar">Registrarse</button>
+            </form>
+       </div>
+
+    </main>
+</body>
+</html>
